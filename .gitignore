@@ -51,3 +51,4 @@ application-prod.yml
 # OCR temp files
 *.tmp
 
+src/main/resources/application.yml
