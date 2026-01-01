@@ -8,7 +8,7 @@ It focuses on extracting text from documents, chunking it intelligently, and gen
 
 ## Completed Steps
 
-### STEP-1: Project Setup
+# STEP-1: Project Setup
 - Spring Boot + Maven
 - Clean package structure
 
@@ -32,12 +32,12 @@ It focuses on extracting text from documents, chunking it intelligently, and gen
 
 ## 📌 API
 
-### Upload Document
+# Upload Document
 POST /upload
 **Form-Data**
 - `file`: PDF / Image / Text file
 
-**Response**
+# Response
 ```json
 [
   {
@@ -47,14 +47,15 @@ POST /upload
   }
 ]
 
-### Architecture Flow
-**Document**
+## Architecture Flow
+Document
  → OCR
  → Chunking
  → Embedding
  → Vector Store
 
-#👤 Author
-Mohana
-Senior Java & Microservices Engineer
+## 👨‍💻 Author
+**Mohana**  
+Senior Java & Microservices Engineer  
 Exploring AI, RAG, and LLM integration with Spring Boot
+
